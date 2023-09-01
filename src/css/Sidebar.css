@@ -1,0 +1,73 @@
+/* Sidebar.css */
+
+/* Common styles for both closed and open states */
+.sidebar {
+  overflow-x: hidden;
+  transition: transform 0.3s ease;
+  position: fixed;
+  top: 52px; /* Adjust the top margin to prevent overlap with the navigation bar */
+  background-color: #333;
+  color: #fff;
+  width: 250px;
+  height: 100%;
+  z-index: 100;
+  box-shadow: 0px 0px 10px rgba(225, 225, 225, 0.2); /* Add a subtle shadow for depth */
+}
+
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+/* Styles for the closed state */
+.sidebar.closed {
+  transform: translateX(-250px); /* Move the sidebar off-screen */
+  background-color: #e6e5e5; /* Change the background color for closed state */
+}
+
+/* Sidebar header (special item) */
+#special {
+  background-color: #444;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: small;
+  color: #858585;
+  cursor: default; /* Disable cursor on the header item */
+}
+
+/* Sidebar list items */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+/* Sidebar links */
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+#special:hover{
+  cursor:text;
+}
+
+
+.sidebar a:hover {
+  
+  font-weight: bold; 
+
+}
+.sidebar {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+/* VoterRegistration.css */
+.form-container {
+    max-width: 400px;
+    margin-top: 5%;
+    margin-left: 40%;
+    padding: 20px;
+
+    background-color: #fff;
+
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form-group input[type="password"] {
+    font-family: monospace; /* Ensures password dots are of equal width */
+  }
+  
+  .form-group button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .form-group button[type="button"] {
+    background-color: #6c757d;
+  }
+  
+  .form-group button:hover {
+    background-color: #0056b3;
+  }
+  .open-modal-button{
+    background-color: #4fb1cf;
+    color: #fff;
+  
+    padding: 10px 20px;
+    border-radius: none;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+  
+  }
+  .open-modal-button:hover{
+    border-radius: 20px;
+
+  
+  }
